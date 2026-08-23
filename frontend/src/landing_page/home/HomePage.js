@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import Hero from './Hero';
+import Awards from './Awards';
 import Trust from './Trust';
+import KiteConnect from './KiteConnect';
 import Pricing from './Pricing';
 import Education from './Education';
 import OpenAccount from '../OpenAccount';
@@ -12,7 +14,9 @@ function HomePage() {
         <>
             <Navbar />
             <Hero />
+            <Awards />
             <Trust />
+            <KiteConnect />
             <Pricing />
             <Education />
             <OpenAccount />

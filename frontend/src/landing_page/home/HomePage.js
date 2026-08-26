@@ -10,9 +10,8 @@ import OpenAccount from '../OpenAccount';
 import Footer from '../Footer';
 
 function HomePage() {
-    return ( 
+    return (
         <>
-            <Navbar />
             <Hero />
             <Awards />
             <Trust />
@@ -20,9 +19,8 @@ function HomePage() {
             <Pricing />
             <Education />
             <OpenAccount />
-            <Footer />
         </>
-     );
+    );
 }
 
 export default HomePage;
